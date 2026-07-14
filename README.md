@@ -1,12 +1,12 @@
-# **Building & Hosting a Web Page     من المفكرة إلى العالم: بناء واستضافة صفحة ويب**
+# **Building & Hosting a Web Page        من المفكرة إلى العالم: بناء واستضافة صفحة ويب**
 
 
-## **Phase 1: Writing Code Locally & The Asset Dilemma  المرحلة 1: كتابة الكود محلياً ومعضلة مسارات الصور** 
+## **Phase 1: Writing Code Locally & The Asset Dilemma       المرحلة 1: كتابة الكود محلياً ومعضلة مسارات الصور**
 
 ### **1. Writing the HTML Code / كتابة كود الـ HTML**
 
 We started by writing a simple structure in **Notepad** (or any text editor) containing a heading, a paragraph, and an image tag (`<img>`).
-* **بالعربية:** بدأنا بكتابة هيكل بسيط لصفحة الويب على برنامج **Notepad** (المفكرة)، يحتوي على عنوان رئيسي، فقرة تعريفية، ووسم الصورة (`<img>`).
+بدأنا بكتابة هيكل بسيط لصفحة الويب على برنامج **Notepad** (المفكرة)، يحتوي على عنوان رئيسي، فقرة تعريفية، ووسم الصورة (`<img>`).
 
 ```
 <!DOCTYPE TYPE html>
@@ -26,7 +26,7 @@ We started by writing a simple structure in **Notepad** (or any text editor) con
 ### **2. Saving the File Locally / **حفظ الملف محلياً
 
 When saving the file, we must set "Save as type" to **All Files** and name it `Taleen.html`.
-* **بالعربية:** عند حفظ الملف، يجب تغيير نوع الحفظ إلى **All Files** وتسميته باسم `Taleen.html` ليعمل كصفحة ويب.
+عند حفظ الملف، يجب تغيير نوع الحفظ إلى **All Files** وتسميته باسم `Taleen.html` ليعمل كصفحة ويب.
 
 >  **The Golden Rule / القاعدة الذهبية:**
 > For relative image paths (like `src="silly-cat.png"`) to work locally, the image file and the HTML file **must be saved in the exact same folder** on your computer.
@@ -37,19 +37,19 @@ When saving the file, we must set "Save as type" to **All Files** and name it `T
 ## **Phase 2: Why Sandbox Editors (W3Schools) "Break" Images   **المرحلة 2: لماذا "تخرب" الصور في محررات الويب (مثل W3Schools)؟
 
 When testing the same code on W3Schools Online Editor, the text loads but the image breaks, displaying only the `alt` text.
-* **بالعربية:** عند تجربة الكود نفسه على محرر W3Schools الإلكتروني، تظهر النصوص لكن الصورة تنكسر ويظهر النص البديل `alt` فقط.
+عند تجربة الكود نفسه على محرر W3Schools الإلكتروني، تظهر النصوص لكن الصورة تنكسر ويظهر النص البديل `alt` فقط.
 
 ### **The Explanation / التفسير البرمجي:**
 
 W3Schools runs on a remote server. When it reads `src="silly-cat.png"`, it searches for that file on *its own online servers*, not on your computer. Since the image is only on your hard drive, the browser cannot find it.
-* **بالعربية:** يعمل موقع W3Schools على خادم بعيد. عندما يقرأ الكود `src="silly-cat.png"`، يبحث عن هذا الملف في *خوادمه الخاصة على الإنترنت*، وليس في جهازكِ الشخصي. وبما أن الصورة موجودة في جهازكِ فقط، لا يتمكن المتصفح من العثور عليها.
+يعمل موقع W3Schools على خادم بعيد. عندما يقرأ الكود `src="silly-cat.png"`، يبحث عن هذا الملف في *خوادمه الخاصة على الإنترنت*، وليس في جهازكِ الشخصي. وبما أن الصورة موجودة في جهازكِ فقط، لا يتمكن المتصفح من العثور عليها.
 
----
+
 
 ## **Phase 3: Styling Your Web Page   **لمرحلة 3: تزيين وتنسيق صفحتكِ بالـ CSS
 
 To make our page look attractive, we added inline styling to the `<body>` and `<h1>` tags to apply background and text colors.
-* **بالعربية:** لتبدو الصفحة جذابة، أضفنا تنسيقات داخلية (Inline CSS) لوسوم الـ `<body>` والـ `<h1>` لتغيير ألوان الخلفية والنصوص.
+لتبدو الصفحة جذابة، أضفنا تنسيقات داخلية (Inline CSS) لوسوم الـ `<body>` والـ `<h1>` لتغيير ألوان الخلفية والنصوص.
 
 ```html
 <body style="background-color: Lavender;">
@@ -60,33 +60,33 @@ To make our page look attractive, we added inline styling to the `<body>` and `<
 ```
 
 This gives the page a beautiful lavender background and highlights the header with a medium purple block.
-* **بالعربية:** يعطي هذا التعديل خلفية هادئة بلون الخزامى (Lavender) مع إبراز شريط العنوان بلون بنفسجي متوسط (MediumPurple).
+يعطي هذا التعديل خلفية هادئة بلون الخزامى (Lavender) مع إبراز شريط العنوان بلون بنفسجي متوسط (MediumPurple).
 
----
+
 
 ## **Phase 4: Publishing to a Live Host (InfinityFree)  المرحلة 4: نشر الموقع على استضافة حية** (InfinityFree)
 
 To share our page with the world, we deployed it to a real, free web hosting provider: **InfinityFree**.
-* **بالعربية:** لمشاركة صفحتنا مع العالم، قمنا برفعها على استضافة ويب حقيقية ومجانية وهي **InfinityFree**.
+لمشاركة صفحتنا مع العالم، قمنا برفعها على استضافة ويب حقيقية ومجانية وهي **InfinityFree**.
 
 ### **Step 1: Accessing the File Manager / **الدخول إلى مدير الملفات
 
  - Log into your InfinityFree hosting panel and open the **File Manager**.
-2. **بالعربية:** سجلي الدخول إلى لوحة استضافة InfinityFree وافتحي **File Manager**.
+- سجلي الدخول إلى لوحة استضافة InfinityFree وافتحي **File Manager**.
  - Double-click and enter the **`htdocs`** folder. (This is the public folder where all website files must live).
-4. **بالعربية:** اضغطي مرتين للدخول إلى مجلد **`htdocs`** (هذا هو المجلد العام الذي يجب أن توضع فيه جميع ملفات موقعكِ ليراها الزوار).
+- اضغطي مرتين للدخول إلى مجلد **`htdocs`** (هذا هو المجلد العام الذي يجب أن توضع فيه جميع ملفات موقعكِ ليراها الزوار).
 
 ### **Step 2: Renaming to `index.html` / إعادة تسمية الملف إلى `index.html`**
 
  Web servers always look for a file named `index.html` as the default homepage. We rename our `Taleen.html` file to **`index.html`** before uploading.
-* **بالعربية:** تبحث خوادم الويب دائماً عن ملف باسم `index.html` ليكون الصفحة الرئيسية للموقع بشكل تلقائي. لذا قمنا بتعديل اسم ملفنا من `Taleen.html` إلى **`index.html`**.
+تبحث خوادم الويب دائماً عن ملف باسم `index.html` ليكون الصفحة الرئيسية للموقع بشكل تلقائي. لذا قمنا بتعديل اسم ملفنا من `Taleen.html` إلى **`index.html`**.
 
 ### **Step 3: Uploading the Files / **رفع الملفات إلى الاستضافة
 
 - Upload the **`index.html`** file into the `htdocs` folder.
-2. **بالعربية:** ارفعي ملف **`index.html`** داخل مجلد `htdocs`.
+- ارفعي ملف **`index.html`** داخل مجلد `htdocs`.
 - Upload the **`silly-cat.png`** image file into the **same** `htdocs` folder.
-4. **بالعربية:** ارفعي ملف الصورة **`silly-cat.png`** داخل **نفس المجلد** `htdocs` بجانب ملف الكود.
+- ارفعي ملف الصورة **`silly-cat.png`** داخل **نفس المجلد** `htdocs` بجانب ملف الكود.
 
 >  **Why? / لماذا؟**
 > If you only upload the HTML code, the server won't have access to the physical picture file. Uploading both to the same root folder satisfies the relative link `src="silly-cat.png"`.
@@ -97,6 +97,6 @@ To share our page with the world, we deployed it to a real, free web hosting pro
 ## **Phase 5: Success! Your Site is Live  **المرحلة 5: النجاح! موقعكِ الآن مباشر على الإنترنت
 
  Open your web browser and navigate to your domain (e.g., `[https://taleen.free.je](https://taleen.free.je)`).
-* **بالعربية:** افتحي متصفح الويب واكتبي رابط موقعكِ الخاص (مثال: `[https://taleen.free.je](https://taleen.free.je)`).
+افتحي متصفح الويب واكتبي رابط موقعكِ الخاص (مثال: `[https://taleen.free.je](https://taleen.free.je)`).
  **Result:** The live server successfully reads the code, fetches the styled header, reads `silly-cat.png` from the folder, and displays a fully functioning website on the internet!
-* **النتيجة:** يقرأ الخادم الحي الكود بنجاح، ويجلب الألوان والتنسيقات، ثم يسحب صورة القط اللطيف من نفس المجلد ليعرض موقعاً متكاملاً يعمل بكفاءة أمام زوار الشبكة العالمية!
+يقرأ الخادم الحي الكود بنجاح، ويجلب الألوان والتنسيقات، ثم يسحب صورة القط اللطيف من نفس المجلد ليعرض موقعاً متكاملاً يعمل بكفاءة أمام زوار الشبكة العالمية!
