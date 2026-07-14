@@ -42,7 +42,7 @@ For relative image paths (like `src="silly-cat.png"`) to work locally, the image
 
 
 
-## **Phase 2: Why Sandbox Editors (W3Schools) "Break" Images   المرحلة 2: لماذا "تخرب" الصور في محررات الويب (مثل W3Schools)؟**
+## **Phase 2: Why Sandbox Editors (W3Schools) "Break" Images     المرحلة 2: لماذا "تخرب" الصور في محررات الويب **
 
 When testing the same code on W3Schools Online Editor, the text loads but the image breaks, displaying only the `alt` text.
 
