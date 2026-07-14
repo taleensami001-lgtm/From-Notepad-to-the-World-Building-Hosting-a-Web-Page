@@ -150,11 +150,11 @@ To share my page with the world, I deployed it to a real, free web hosting provi
 
 ![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20171334.png)
 
->  **Why? / لماذا؟**
-> If you only upload the HTML code, the server won't have access to the physical picture file. Uploading both to the same root folder satisfies the relative link `src="silly-cat.png"`.
+  **Why? / لماذا؟**
+ If you only upload the HTML code, the server won't have access to the physical picture file. Uploading both to the same root folder satisfies the relative link `src="silly-cat.png"`.
 
 
-> إذا رفعتِ كود الـ HTML فقط، لن يجد الخادم ملف الصورة الفعلي لعرضه. رفع الملفين معاً في نفس المجلد يحقق شروط الرابط النسبي بنجاح.
+ إذا رفعتِ كود الـ HTML فقط، لن يجد الخادم ملف الصورة الفعلي لعرضه. رفع الملفين معاً في نفس المجلد يحقق شروط الرابط النسبي بنجاح.
 
 ![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20171224.png)
 
