@@ -1,4 +1,4 @@
-# **Building & Hosting a Web Page             من المفكرة إلى العالم: بناء واستضافة صفحة ويب**
+# **Building & Hosting a Web Page              بناء واستضافة صفحة ويب**
 
 
 ## **Phase 1: Writing Code Locally & The Asset Dilemma            المرحلة 1: كتابة الكود محلياً ومعضلة مسارات الصور**
