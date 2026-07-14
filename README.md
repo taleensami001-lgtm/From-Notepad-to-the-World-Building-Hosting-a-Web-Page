@@ -61,8 +61,10 @@ For relative image paths (like `src="silly-cat.png"`) to work locally, the image
 
 When testing the same code on W3Schools Online Editor, the text loads but the image breaks, displaying only the `alt` text.
 
-
 عند تجربة الكود نفسه على محرر W3Schools الإلكتروني، تظهر النصوص لكن الصورة تنكسر ويظهر النص البديل `alt` فقط.
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20164646.png)
+
 
 ### **The Explanation / التفسير البرمجي:**
 
@@ -71,6 +73,7 @@ W3Schools runs on a remote server. When it reads `src="silly-cat.png"`, it searc
 
 يعمل موقع W3Schools على خادم بعيد. عندما يقرأ الكود `src="silly-cat.png"`، يبحث عن هذا الملف في *خوادمه الخاصة على الإنترنت*، وليس في جهازكِ الشخصي. وبما أن الصورة موجودة في جهازكِ فقط، لا يتمكن المتصفح من العثور عليها.
 
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20164631.png)
 
 
 **Phase 3: Styling Your Web Page**
@@ -80,6 +83,8 @@ To make our page look attractive, I added inline styling to the `<body>` and `<h
 
 
 لتبدو الصفحة جذابة، اضفت تنسيقات داخلية (Inline CSS) لوسوم الـ `<body>` والـ `<h1>` لتغيير ألوان الخلفية والنصوص.
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20165930.png)
 
 ```html
 <body style="background-color: Lavender;">
@@ -94,7 +99,7 @@ This gives the page a beautiful lavender background and highlights the header wi
 
 يعطي هذا التعديل خلفية هادئة بلون الخزامى (Lavender) مع إبراز شريط العنوان بلون بنفسجي متوسط (MediumPurple).
 
-
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20165918.png)
 
 **Phase 4: Publishing to a Live Host (InfinityFree)**
   **المرحلة 4: نشر الموقع على استضافة حية (InfinityFree)**
@@ -111,15 +116,20 @@ To share my page with the world, I deployed it to a real, free web hosting provi
 
 - سجل الدخول إلى لوحة استضافة InfinityFree وافتح **File Manager**.
 
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20170646.png)
+
  - Double-click and enter the **`htdocs`** folder. (This is the public folder where all website files must live).
 
 - اضغط مرتين للدخول إلى مجلد **`htdocs`** (هذا هو المجلد العام الذي يجب أن توضع فيه جميع ملفات موقعكِ ليراها الزوار).
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20170725.png)
 
  **Step 2: Renaming to `index.html`** 
  **إعادة تسمية الملف إلى `index.html`**
 
  Web servers always look for a file named `index.html` as the default homepage. I rename my `Taleen.html` file to **`index.html`** before uploading.
 
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20171136.png)
 
 تبحث خوادم الويب دائماً عن ملف باسم `index.html` ليكون الصفحة الرئيسية للموقع بشكل تلقائي. لذا قمت بتعديل اسم ملفي من `Taleen.html` إلى **`index.html`**.
 
@@ -130,15 +140,23 @@ To share my page with the world, I deployed it to a real, free web hosting provi
 
 - ارفع ملف **`index.html`** داخل مجلد `htdocs`.
 
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20171146.png)
+
 - Upload the **`silly-cat.png`** image file into the **same** `htdocs` folder.
 
 - ارفع ملف الصورة **`silly-cat.png`** داخل **نفس المجلد** `htdocs` بجانب ملف الكود.
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20171323.png)
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20171334.png)
 
 >  **Why? / لماذا؟**
 > If you only upload the HTML code, the server won't have access to the physical picture file. Uploading both to the same root folder satisfies the relative link `src="silly-cat.png"`.
 
 
 > إذا رفعتِ كود الـ HTML فقط، لن يجد الخادم ملف الصورة الفعلي لعرضه. رفع الملفين معاً في نفس المجلد يحقق شروط الرابط النسبي بنجاح.
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20171224.png)
 
 ---
 
@@ -154,3 +172,5 @@ To share my page with the world, I deployed it to a real, free web hosting provi
 
 
 يقرأ الخادم الحي الكود بنجاح، ويجلب الألوان والتنسيقات، ثم يسحب صورة القط اللطيف من نفس المجلد ليعرض موقعاً متكاملاً يعمل بكفاءة أمام زوار الشبكة العالمية!
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/931be255d3921ac6b913bbef888c5003c2beb702/Screenshot%202026-07-14%20171546.png)
