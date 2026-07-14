@@ -1,7 +1,8 @@
 # **Building & Hosting a Web Page              بناء واستضافة صفحة ويب**
 
 
-## **Phase 1: Writing Code Locally & The Asset Dilemma                                       المرحلة 1: كتابة الكود محلياً ومعضلة مسارات الصور**
+**Phase 1: Writing Code Locally & The Asset**
+ **المرحلة 1: كتابة الكود محلياً ومعضلة مسارات الصور**
 
 **1. Writing the HTML Code** 
  **كتابة كود الـ HTML**
@@ -42,7 +43,8 @@ For relative image paths (like `src="silly-cat.png"`) to work locally, the image
 
 
 
-## **Phase 2: Why Sandbox Editors (W3Schools) "Break" Images     المرحلة 2: لماذا "تخرب" الصور في محررات الويب **
+**Phase 2: Why Sandbox Editors (W3Schools) "Break" Images**     
+**المرحلة 2: لماذا "تخرب" الصور في محررات الويب**
 
 When testing the same code on W3Schools Online Editor, the text loads but the image breaks, displaying only the `alt` text.
 
@@ -58,7 +60,8 @@ W3Schools runs on a remote server. When it reads `src="silly-cat.png"`, it searc
 
 
 
-## **Phase 3: Styling Your Web Page   **لمرحلة 3: تزيين وتنسيق صفحتكِ بالـ CSS
+**Phase 3: Styling Your Web Page**
+**لمرحلة 3: تزيين وتنسيق صفحتكِ بالـ CSS**
 
 To make our page look attractive, I added inline styling to the `<body>` and `<h1>` tags to apply background and text colors.
 
@@ -80,14 +83,15 @@ This gives the page a beautiful lavender background and highlights the header wi
 
 
 
-## **Phase 4: Publishing to a Live Host (InfinityFree)  المرحلة 4: نشر الموقع على استضافة حية** (InfinityFree)
+**Phase 4: Publishing to a Live Host (InfinityFree)**
+  **المرحلة 4: نشر الموقع على استضافة حية (InfinityFree)**
 
 To share my page with the world, I deployed it to a real, free web hosting provider: **InfinityFree**.
 
 
 لمشاركة صفحتي مع العالم، قمت برفعها على استضافة ويب حقيقية ومجانية وهي **InfinityFree**.
 
-### **Step 1: Accessing the File Manager / **الدخول إلى مدير الملفات
+**Step 1: Accessing the File Manager / **الدخول إلى مدير الملفات
 
  - Log into your InfinityFree hosting panel and open the **File Manager**.
 
@@ -122,7 +126,8 @@ To share my page with the world, I deployed it to a real, free web hosting provi
 
 ---
 
-## **Phase 5: Success! Your Site is Live  **المرحلة 5: النجاح! موقعكِ الآن مباشر على الإنترنت
+**Phase 5: Success! Your Site is Live**
+  **المرحلة 5: النجاح! موقعكِ الآن مباشر على الإنترنت**
 
  Open your web browser and navigate to your domain (e.g., `[https://taleen.free.je](https://taleen.free.je)`).
 
