@@ -16,6 +16,11 @@ We started by writing a simple structure in **Notepad** (or any text editor) con
 ![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/401fc33dce88bb44ca4637560d0025d52f3db9ad/Screenshot%202026-07-14%20164341.png)
 
 
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/22f3d32e50a68c0f5c8efe288c37dd588e4d332b/Screenshot%202026-07-14%20164455.png)
+
+
+
+
 ```
 <!DOCTYPE TYPE html>
 <html>
@@ -39,12 +44,16 @@ When saving the file, we must set "Save as type" to **All Files** and name it `T
 
 عند حفظ الملف، يجب تغيير نوع الحفظ إلى **All Files** وتسميته باسم `Taleen.html` ليعمل كصفحة ويب.
 
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/401fc33dce88bb44ca4637560d0025d52f3db9ad/Screenshot%202026-07-14%20164419.png)
+
 **The Golden Rule / القاعدة الذهبية:**
 For relative image paths (like `src="silly-cat.png"`) to work locally, the image file and the HTML file **must be saved in the exact same folder** on your computer.
 
 
  لكي تعمل مسارات الصور النسبية محلياً، **يجب** حفظ ملف الصورة وملف الـ (اتش تي ام ال) في نفس المجلد تماماً على جهازكِ.
 
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/22f3d32e50a68c0f5c8efe288c37dd588e4d332b/Screenshot%202026-07-14%20164512.png)
 
 
 **Phase 2: Why Sandbox Editors (W3Schools) "Break" Images**     
