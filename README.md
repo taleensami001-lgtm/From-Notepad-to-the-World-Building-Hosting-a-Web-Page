@@ -12,6 +12,10 @@ We started by writing a simple structure in **Notepad** (or any text editor) con
 
 بدأنا بكتابة هيكل بسيط لصفحة الويب على برنامج **Notepad** (المفكرة)، يحتوي على عنوان رئيسي، فقرة تعريفية، ووسم الصورة (`<img>`).
 
+
+![img alt](https://github.com/taleensami001-lgtm/From-Notepad-to-the-World-Building-Hosting-a-Web-Page/blob/401fc33dce88bb44ca4637560d0025d52f3db9ad/Screenshot%202026-07-14%20164341.png)
+
+
 ```
 <!DOCTYPE TYPE html>
 <html>
