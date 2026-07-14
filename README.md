@@ -91,7 +91,8 @@ To share my page with the world, I deployed it to a real, free web hosting provi
 
 لمشاركة صفحتي مع العالم، قمت برفعها على استضافة ويب حقيقية ومجانية وهي **InfinityFree**.
 
-**Step 1: Accessing the File Manager / **الدخول إلى مدير الملفات
+**Step 1: Accessing the File Manager**
+ **الدخول إلى مدير الملفات**
 
  - Log into your InfinityFree hosting panel and open the **File Manager**.
 
@@ -101,14 +102,16 @@ To share my page with the world, I deployed it to a real, free web hosting provi
 
 - اضغط مرتين للدخول إلى مجلد **`htdocs`** (هذا هو المجلد العام الذي يجب أن توضع فيه جميع ملفات موقعكِ ليراها الزوار).
 
- **Step 2: Renaming to `index.html` / إعادة تسمية الملف إلى `index.html`**
+ **Step 2: Renaming to `index.html`** 
+ **إعادة تسمية الملف إلى `index.html`**
 
  Web servers always look for a file named `index.html` as the default homepage. I rename my `Taleen.html` file to **`index.html`** before uploading.
 
 
 تبحث خوادم الويب دائماً عن ملف باسم `index.html` ليكون الصفحة الرئيسية للموقع بشكل تلقائي. لذا قمت بتعديل اسم ملفي من `Taleen.html` إلى **`index.html`**.
 
- **Step 3: Uploading the Files / **رفع الملفات إلى الاستضافة
+ **Step 3: Uploading the Files** 
+ **رفع الملفات إلى الاستضافة**
 
 - Upload the **`index.html`** file into the `htdocs` folder.
 
