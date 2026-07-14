@@ -78,12 +78,12 @@ To share our page with the world, we deployed it to a real, free web hosting pro
  - Double-click and enter the **`htdocs`** folder. (This is the public folder where all website files must live).
 - اضغطي مرتين للدخول إلى مجلد **`htdocs`** (هذا هو المجلد العام الذي يجب أن توضع فيه جميع ملفات موقعكِ ليراها الزوار).
 
-### **Step 2: Renaming to `index.html` / إعادة تسمية الملف إلى `index.html`**
+ **Step 2: Renaming to `index.html` / إعادة تسمية الملف إلى `index.html`**
 
  Web servers always look for a file named `index.html` as the default homepage. We rename our `Taleen.html` file to **`index.html`** before uploading.
 تبحث خوادم الويب دائماً عن ملف باسم `index.html` ليكون الصفحة الرئيسية للموقع بشكل تلقائي. لذا قمنا بتعديل اسم ملفنا من `Taleen.html` إلى **`index.html`**.
 
-### **Step 3: Uploading the Files / **رفع الملفات إلى الاستضافة
+ **Step 3: Uploading the Files / **رفع الملفات إلى الاستضافة
 
 - Upload the **`index.html`** file into the `htdocs` folder.
 - ارفعي ملف **`index.html`** داخل مجلد `htdocs`.
