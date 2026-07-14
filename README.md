@@ -3,7 +3,8 @@
 
 ## **Phase 1: Writing Code Locally & The Asset Dilemma                                       المرحلة 1: كتابة الكود محلياً ومعضلة مسارات الصور**
 
-### **1. Writing the HTML Code / كتابة كود الـ HTML**
+**1. Writing the HTML Code** 
+ **كتابة كود الـ HTML**
 
 We started by writing a simple structure in **Notepad** (or any text editor) containing a heading, a paragraph, and an image tag (`<img>`).
 بدأنا بكتابة هيكل بسيط لصفحة الويب على برنامج **Notepad** (المفكرة)، يحتوي على عنوان رئيسي، فقرة تعريفية، ووسم الصورة (`<img>`).
@@ -23,7 +24,8 @@ We started by writing a simple structure in **Notepad** (or any text editor) con
 
 ```
 
-### **2. Saving the File Locally / **حفظ الملف محلياً
+ **2. Saving the File Locally** 
+ **حفظ الملف محلياً**
 
 When saving the file, we must set "Save as type" to **All Files** and name it `Taleen.html`.
 عند حفظ الملف، يجب تغيير نوع الحفظ إلى **All Files** وتسميته باسم `Taleen.html` ليعمل كصفحة ويب.
