@@ -34,11 +34,12 @@ When saving the file, we must set "Save as type" to **All Files** and name it `T
 
 عند حفظ الملف، يجب تغيير نوع الحفظ إلى **All Files** وتسميته باسم `Taleen.html` ليعمل كصفحة ويب.
 
->  **The Golden Rule / القاعدة الذهبية:**
-> For relative image paths (like `src="silly-cat.png"`) to work locally, the image file and the HTML file **must be saved in the exact same folder** on your computer.
+**The Golden Rule / القاعدة الذهبية:**
+>For relative image paths (like `src="silly-cat.png"`) to work locally, the image file and the HTML file **must be saved in the exact same folder** on your computer.
 
 
-> لكي تعمل مسارات الصور النسبية محلياً، **يجب** حفظ ملف الصورة وملف الـ HTML في نفس المجلد تماماً على جهازكِ.
+ لكي تعمل مسارات الصور النسبية محلياً، **يجب** حفظ ملف الصورة وملف الـ HTML 
+في نفس المجلد تماماً على جهازكِ.
 
 
 
