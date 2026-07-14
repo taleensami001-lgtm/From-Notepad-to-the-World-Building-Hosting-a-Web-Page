@@ -35,11 +35,10 @@ When saving the file, we must set "Save as type" to **All Files** and name it `T
 عند حفظ الملف، يجب تغيير نوع الحفظ إلى **All Files** وتسميته باسم `Taleen.html` ليعمل كصفحة ويب.
 
 **The Golden Rule / القاعدة الذهبية:**
->For relative image paths (like `src="silly-cat.png"`) to work locally, the image file and the HTML file **must be saved in the exact same folder** on your computer.
+For relative image paths (like `src="silly-cat.png"`) to work locally, the image file and the HTML file **must be saved in the exact same folder** on your computer.
 
 
- لكي تعمل مسارات الصور النسبية محلياً، **يجب** حفظ ملف الصورة وملف الـ HTML 
-في نفس المجلد تماماً على جهازكِ.
+ لكي تعمل مسارات الصور النسبية محلياً، **يجب** حفظ ملف الصورة وملف الـ (اتش تي ام ال) في نفس المجلد تماماً على جهازكِ.
 
 
 
@@ -61,10 +60,10 @@ W3Schools runs on a remote server. When it reads `src="silly-cat.png"`, it searc
 
 ## **Phase 3: Styling Your Web Page   **لمرحلة 3: تزيين وتنسيق صفحتكِ بالـ CSS
 
-To make our page look attractive, we added inline styling to the `<body>` and `<h1>` tags to apply background and text colors.
+To make our page look attractive, I added inline styling to the `<body>` and `<h1>` tags to apply background and text colors.
 
 
-لتبدو الصفحة جذابة، أضفنا تنسيقات داخلية (Inline CSS) لوسوم الـ `<body>` والـ `<h1>` لتغيير ألوان الخلفية والنصوص.
+لتبدو الصفحة جذابة، اضفت تنسيقات داخلية (Inline CSS) لوسوم الـ `<body>` والـ `<h1>` لتغيير ألوان الخلفية والنصوص.
 
 ```html
 <body style="background-color: Lavender;">
@@ -83,37 +82,37 @@ This gives the page a beautiful lavender background and highlights the header wi
 
 ## **Phase 4: Publishing to a Live Host (InfinityFree)  المرحلة 4: نشر الموقع على استضافة حية** (InfinityFree)
 
-To share our page with the world, we deployed it to a real, free web hosting provider: **InfinityFree**.
+To share my page with the world, I deployed it to a real, free web hosting provider: **InfinityFree**.
 
 
-لمشاركة صفحتنا مع العالم، قمنا برفعها على استضافة ويب حقيقية ومجانية وهي **InfinityFree**.
+لمشاركة صفحتي مع العالم، قمت برفعها على استضافة ويب حقيقية ومجانية وهي **InfinityFree**.
 
 ### **Step 1: Accessing the File Manager / **الدخول إلى مدير الملفات
 
  - Log into your InfinityFree hosting panel and open the **File Manager**.
 
-- سجلي الدخول إلى لوحة استضافة InfinityFree وافتحي **File Manager**.
+- سجل الدخول إلى لوحة استضافة InfinityFree وافتح **File Manager**.
 
  - Double-click and enter the **`htdocs`** folder. (This is the public folder where all website files must live).
 
-- اضغطي مرتين للدخول إلى مجلد **`htdocs`** (هذا هو المجلد العام الذي يجب أن توضع فيه جميع ملفات موقعكِ ليراها الزوار).
+- اضغط مرتين للدخول إلى مجلد **`htdocs`** (هذا هو المجلد العام الذي يجب أن توضع فيه جميع ملفات موقعكِ ليراها الزوار).
 
  **Step 2: Renaming to `index.html` / إعادة تسمية الملف إلى `index.html`**
 
- Web servers always look for a file named `index.html` as the default homepage. We rename our `Taleen.html` file to **`index.html`** before uploading.
+ Web servers always look for a file named `index.html` as the default homepage. I rename my `Taleen.html` file to **`index.html`** before uploading.
 
 
-تبحث خوادم الويب دائماً عن ملف باسم `index.html` ليكون الصفحة الرئيسية للموقع بشكل تلقائي. لذا قمنا بتعديل اسم ملفنا من `Taleen.html` إلى **`index.html`**.
+تبحث خوادم الويب دائماً عن ملف باسم `index.html` ليكون الصفحة الرئيسية للموقع بشكل تلقائي. لذا قمت بتعديل اسم ملفي من `Taleen.html` إلى **`index.html`**.
 
  **Step 3: Uploading the Files / **رفع الملفات إلى الاستضافة
 
 - Upload the **`index.html`** file into the `htdocs` folder.
 
-- ارفعي ملف **`index.html`** داخل مجلد `htdocs`.
+- ارفع ملف **`index.html`** داخل مجلد `htdocs`.
 
 - Upload the **`silly-cat.png`** image file into the **same** `htdocs` folder.
 
-- ارفعي ملف الصورة **`silly-cat.png`** داخل **نفس المجلد** `htdocs` بجانب ملف الكود.
+- ارفع ملف الصورة **`silly-cat.png`** داخل **نفس المجلد** `htdocs` بجانب ملف الكود.
 
 >  **Why? / لماذا؟**
 > If you only upload the HTML code, the server won't have access to the physical picture file. Uploading both to the same root folder satisfies the relative link `src="silly-cat.png"`.
@@ -128,7 +127,7 @@ To share our page with the world, we deployed it to a real, free web hosting pro
  Open your web browser and navigate to your domain (e.g., `[https://taleen.free.je](https://taleen.free.je)`).
 
 
-افتحي متصفح الويب واكتبي رابط موقعكِ الخاص (مثال: `[https://taleen.free.je](https://taleen.free.je)`).
+افتح متصفح الويب واكتبي رابط موقعكِ الخاص (مثال: `[https://taleen.free.je](https://taleen.free.je)`).
 
  **Result:** The live server successfully reads the code, fetches the styled header, reads `silly-cat.png` from the folder, and displays a fully functioning website on the internet!
 
